@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "PricingVisitor.h"
+#import "FloppyDisk.h"
+#import "Card.h"
+#import "Equipment.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +20,17 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    PricingVisitor* pricingVis = [[PricingVisitor alloc] init];
+    FloppyDisk* floppyDisk = [[FloppyDisk alloc] init];
+    Card* card = [[Card alloc] init];
+    
+    NSArray* equipmentList= @[card, floppyDisk];
+    for (Equipment* equ  in equipmentList) {
+        [equ accept:pricingVis];
+    }
+    
+    [pricingVis totalPrice];
+    
 }
 
 

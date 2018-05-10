@@ -12,6 +12,12 @@
 		EE2CFEEB20A2609200ADFC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2CFEEA20A2609200ADFC29 /* Assets.xcassets */; };
 		EE2CFEEE20A2609200ADFC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2CFEEC20A2609200ADFC29 /* Main.storyboard */; };
 		EE2CFEF120A2609200ADFC29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFEF020A2609200ADFC29 /* main.m */; };
+		EE2CFEFA20A260AD00ADFC29 /* Equipment.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFEF920A260AD00ADFC29 /* Equipment.m */; };
+		EE2CFEFD20A2640A00ADFC29 /* EquipmentVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFEFC20A2640A00ADFC29 /* EquipmentVisitor.m */; };
+		EE2CFF0020A2643E00ADFC29 /* FloppyDisk.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFEFF20A2643E00ADFC29 /* FloppyDisk.m */; };
+		EE2CFF0320A2645700ADFC29 /* PricingVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFF0220A2645700ADFC29 /* PricingVisitor.m */; };
+		EE2CFF0620A2647D00ADFC29 /* InventoryVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFF0520A2647D00ADFC29 /* InventoryVisitor.m */; };
+		EE2CFF0920A268CC00ADFC29 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CFF0820A268CC00ADFC29 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,18 @@
 		EE2CFEEF20A2609200ADFC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2CFEF020A2609200ADFC29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE2CFEF220A2609200ADFC29 /* DesignPatterns_Visitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignPatterns_Visitor.entitlements; sourceTree = "<group>"; };
+		EE2CFEF820A260AD00ADFC29 /* Equipment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Equipment.h; sourceTree = "<group>"; };
+		EE2CFEF920A260AD00ADFC29 /* Equipment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Equipment.m; sourceTree = "<group>"; };
+		EE2CFEFB20A2640A00ADFC29 /* EquipmentVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquipmentVisitor.h; sourceTree = "<group>"; };
+		EE2CFEFC20A2640A00ADFC29 /* EquipmentVisitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquipmentVisitor.m; sourceTree = "<group>"; };
+		EE2CFEFE20A2643E00ADFC29 /* FloppyDisk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloppyDisk.h; sourceTree = "<group>"; };
+		EE2CFEFF20A2643E00ADFC29 /* FloppyDisk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloppyDisk.m; sourceTree = "<group>"; };
+		EE2CFF0120A2645700ADFC29 /* PricingVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PricingVisitor.h; sourceTree = "<group>"; };
+		EE2CFF0220A2645700ADFC29 /* PricingVisitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PricingVisitor.m; sourceTree = "<group>"; };
+		EE2CFF0420A2647D00ADFC29 /* InventoryVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InventoryVisitor.h; sourceTree = "<group>"; };
+		EE2CFF0520A2647D00ADFC29 /* InventoryVisitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InventoryVisitor.m; sourceTree = "<group>"; };
+		EE2CFF0720A268CC00ADFC29 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		EE2CFF0820A268CC00ADFC29 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +77,18 @@
 			children = (
 				EE2CFEE420A2609200ADFC29 /* AppDelegate.h */,
 				EE2CFEE520A2609200ADFC29 /* AppDelegate.m */,
+				EE2CFEF820A260AD00ADFC29 /* Equipment.h */,
+				EE2CFEF920A260AD00ADFC29 /* Equipment.m */,
+				EE2CFEFE20A2643E00ADFC29 /* FloppyDisk.h */,
+				EE2CFEFF20A2643E00ADFC29 /* FloppyDisk.m */,
+				EE2CFF0720A268CC00ADFC29 /* Card.h */,
+				EE2CFF0820A268CC00ADFC29 /* Card.m */,
+				EE2CFEFB20A2640A00ADFC29 /* EquipmentVisitor.h */,
+				EE2CFEFC20A2640A00ADFC29 /* EquipmentVisitor.m */,
+				EE2CFF0120A2645700ADFC29 /* PricingVisitor.h */,
+				EE2CFF0220A2645700ADFC29 /* PricingVisitor.m */,
+				EE2CFF0420A2647D00ADFC29 /* InventoryVisitor.h */,
+				EE2CFF0520A2647D00ADFC29 /* InventoryVisitor.m */,
 				EE2CFEE720A2609200ADFC29 /* ViewController.h */,
 				EE2CFEE820A2609200ADFC29 /* ViewController.m */,
 				EE2CFEEA20A2609200ADFC29 /* Assets.xcassets */,
@@ -140,9 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2CFF0020A2643E00ADFC29 /* FloppyDisk.m in Sources */,
 				EE2CFEE920A2609200ADFC29 /* ViewController.m in Sources */,
 				EE2CFEF120A2609200ADFC29 /* main.m in Sources */,
+				EE2CFF0620A2647D00ADFC29 /* InventoryVisitor.m in Sources */,
+				EE2CFEFD20A2640A00ADFC29 /* EquipmentVisitor.m in Sources */,
+				EE2CFF0920A268CC00ADFC29 /* Card.m in Sources */,
+				EE2CFEFA20A260AD00ADFC29 /* Equipment.m in Sources */,
 				EE2CFEE620A2609200ADFC29 /* AppDelegate.m in Sources */,
+				EE2CFF0320A2645700ADFC29 /* PricingVisitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
